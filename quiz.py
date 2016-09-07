@@ -4,12 +4,27 @@ def has_teen(a,b,c):
 		return True
 	else:
 		return False
+
 print has_teen(11,12,13) #T
 print has_teen(13,14,15) #T
 print has_teen(11,12,20) #F
-# TODO - write not_string
 
-# TODO - write icy_hot
+#def not_string():
+
+
+
+#print not_string('not cool') #cool not
+#print not_string('cool') #not cool
+
+def icy_hot(a,b):
+	if a < 0 or b > 100:
+		return True
+	else:
+		return False
+
+print icy_hot(30,50)#F
+print icy_hot(30,200)#T
+print icy_hot(-1,20)#T
 
 # TODO - write closer_to
 
